@@ -44,4 +44,16 @@ This repository contains my **portfolio hub**: a clean README for quick navigati
 - `assets/` — images (optional previews, icons)
 
 ---
+## Run locally
+
+Because the site loads `projects.json`, you need a small local server:
+
+```bash
+# Python
+python -m http.server 5173
+# then open http://localhost:5173
+
+# or Node
+npx serve .
+```
 

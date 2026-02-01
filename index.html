@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Alina Voloha — Frontend Developer (React) • CS Student • Portfolio" />
+  <title>Alina Voloha • Portfolio</title>
+
+  <meta property="og:title" content="Alina Voloha • Portfolio" />
+  <meta property="og:description" content="Projects-first portfolio: React apps, JS mini apps, full-stack CalcDash, SQL and Java work." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <div class="brand-text">
+            <div class="name">Alina Voloha</div>
+            <div class="tagline">Frontend Developer (React) • CS Student • Aspiring Full‑Stack</div>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a class="navlink" href="#projects">Projects</a>
+          <a class="navlink" href="#stack">Stack</a>
+          <a class="navlink" href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <section class="hero" id="content">
+        <div class="hero-left">
+          <div class="pill" title="Hover me">
+            <span class="pill-dot"></span>
+            <span>Hi, I'm Alina</span>
+          </div>
+
+          <h1 class="headline">
+            Projects-first portfolio. Clean UI, structured code, and real product thinking.
+          </h1>
+
+          <p class="subhead">
+            Based in Belarus. Looking for a frontend role (React) with a flexible schedule while I study.
+            I like turning messy requirements into clear structure: UI + logic + maintainable code.
+          </p>
+
+          <div class="cta">
+            <a class="btn primary" href="#projects">View projects</a>
+            <a class="btn ghost" href="https://github.com/alnvoloha" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+
+          <div class="quick">
+            <div class="quick-item">
+              <div class="quick-k">Focus</div>
+              <div class="quick-v">React • UI engineering • architecture & refactoring</div>
+            </div>
+            <div class="quick-item">
+              <div class="quick-k">Also</div>
+              <div class="quick-v">Java/Spring • SQL Server (T‑SQL) • Linux/Bash</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="card glass">
+            <div class="card-title">Featured</div>
+            <div class="card-hint">Pinned projects are below. The site is generated from <code>projects.json</code>.</div>
+
+            <div class="stats">
+              <div class="stat">
+                <div class="stat-num" id="statFeatured">0</div>
+                <div class="stat-label">featured</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num" id="statProjects">0</div>
+                <div class="stat-label">projects</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num" id="statCategories">0</div>
+                <div class="stat-label">categories</div>
+              </div>
+            </div>
+
+            <div class="mini">
+              <div class="mini-row">
+                <span class="mini-dot"></span><span>Fast filtering + search</span>
+              </div>
+              <div class="mini-row">
+                <span class="mini-dot"></span><span>Responsive grid + clean typography</span>
+              </div>
+              <div class="mini-row">
+                <span class="mini-dot"></span><span>Canvas particle background</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section class="section" id="projects">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="section-sub">Filter by category or search by name/tech. Add new items in <code>projects.json</code>.</p>
+        </div>
+
+        <div class="controls glass">
+          <div class="filters" id="filters"></div>
+
+          <label class="search">
+            <span class="sr">Search</span>
+            <input id="search" type="search" placeholder="Search projects, tech, keywords…" autocomplete="off" />
+          </label>
+        </div>
+
+        <div class="grid" id="grid"></div>
+      </section>
+
+      <section class="section" id="stack">
+        <div class="section-head">
+          <h2>Stack</h2>
+          <p class="section-sub">A quick summary. Details live inside each project repo.</p>
+        </div>
+
+        <div class="stack glass">
+          <div class="stack-col">
+            <div class="stack-title">Frontend</div>
+            <div class="chips">
+              <span class="chip">React</span>
+              <span class="chip">Redux</span>
+              <span class="chip">TypeScript (learning)</span>
+              <span class="chip">Tailwind</span>
+              <span class="chip">HTML/CSS</span>
+              <span class="chip">Vite</span>
+            </div>
+          </div>
+
+          <div class="stack-col">
+            <div class="stack-title">Backend / Data</div>
+            <div class="chips">
+              <span class="chip">Java</span>
+              <span class="chip">Spring Boot</span>
+              <span class="chip">JWT</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">SQL Server (T‑SQL)</span>
+            </div>
+          </div>
+
+          <div class="stack-col">
+            <div class="stack-title">Tools</div>
+            <div class="chips">
+              <span class="chip">Git/GitHub</span>
+              <span class="chip">Linux/Bash</span>
+              <span class="chip">Postman</span>
+              <span class="chip">Figma</span>
+              <span class="chip">Jira/Trello</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="section-sub">If you're hiring in Belarus (or remote) and need someone who actually cares about structure.</p>
+        </div>
+
+        <div class="contact glass">
+          <a class="contact-item" href="https://t.me/alinavoloha" target="_blank" rel="noopener noreferrer">
+            <span class="icon">↗</span>
+            <span class="contact-main">
+              <span class="contact-k">Telegram</span>
+              <span class="contact-v">@alinavoloha</span>
+            </span>
+          </a>
+
+          <a class="contact-item" href="https://linkedin.com/in/alina-volokha" target="_blank" rel="noopener noreferrer">
+            <span class="icon">↗</span>
+            <span class="contact-main">
+              <span class="contact-k">LinkedIn</span>
+              <span class="contact-v">/in/alina-volokha</span>
+            </span>
+          </a>
+
+          <a class="contact-item" href="mailto:alinavalokha@gmail.com">
+            <span class="icon">✉</span>
+            <span class="contact-main">
+              <span class="contact-k">Email</span>
+              <span class="contact-v">alinavalokha@gmail.com</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="footer">
+          <div class="footer-left">© <span id="year"></span> Alina Voloha</div>
+          <div class="footer-right">
+            <a href="https://github.com/alnvoloha" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <span class="sep">•</span>
+            <a href="#content">Back to top</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

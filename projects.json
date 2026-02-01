@@ -1,0 +1,113 @@
+{
+  "projects": [
+    {
+      "id": "calcdash",
+      "title": "CalcDash",
+      "subtitle": "Full‑stack mental math trainer",
+      "description": "Registration/login, JWT-secured API, task generation, multiple game modes. Work in progress: profile + records polishing.",
+      "category": "Full‑Stack",
+      "tech": [
+        "React Native",
+        "React",
+        "Java",
+        "Spring Boot",
+        "JWT",
+        "PostgreSQL"
+      ],
+      "repo": "https://github.com/alnvoloha/CalcDash",
+      "live": "",
+      "featured": true
+    },
+    {
+      "id": "react-projects",
+      "title": "React Projects",
+      "subtitle": "Practical UI, routing, async, state",
+      "description": "A curated set of React apps: todo variants, product catalog, API explorer, Notion‑lite with Redux.",
+      "category": "Frontend",
+      "tech": [
+        "React",
+        "Vite",
+        "Redux",
+        "React Router",
+        "CSS"
+      ],
+      "repo": "https://github.com/alnvoloha/react-projects",
+      "live": "https://alnvoloha.github.io/react-projects/",
+      "featured": true
+    },
+    {
+      "id": "js-mini-apps",
+      "title": "JS Mini Apps",
+      "subtitle": "Vanilla JS games & UI",
+      "description": "Small apps to practice DOM, state, edge cases, and clean structure (minesweeper, sudoku, routing, async list, etc.).",
+      "category": "Frontend",
+      "tech": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "repo": "https://github.com/alnvoloha/js-mini-apps",
+      "live": "https://alnvoloha.github.io/js-mini-apps/",
+      "featured": true
+    },
+    {
+      "id": "web-design",
+      "title": "Web Design Projects",
+      "subtitle": "HTML/CSS layouts + UI polish",
+      "description": "A curated set of small, self-contained websites demonstrating layout composition, responsive sections, and clean structure.",
+      "category": "Frontend",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "repo": "https://github.com/alnvoloha/web-design",
+      "live": "https://alnvoloha.github.io/web-design/",
+      "featured": false
+    },
+    {
+      "id": "sql-mssql",
+      "title": "SQL / MS SQL Server (T‑SQL)",
+      "subtitle": "Scripts + mini‑projects",
+      "description": "Office expenses model with temporal tables, plus practice tasks by topic (joins, CTE, recursion, date/time, strings).",
+      "category": "Data",
+      "tech": [
+        "T‑SQL",
+        "SQL Server"
+      ],
+      "repo": "https://github.com/alnvoloha/sql-mssql",
+      "live": "",
+      "featured": false
+    },
+    {
+      "id": "java-practice",
+      "title": "Java Practice Projects",
+      "subtitle": "OOP, tests, logging, exceptions",
+      "description": "Small-to-medium Java projects built to strengthen fundamentals: file workflows, validation, custom exceptions, logging, concurrency, networking.",
+      "category": "Backend",
+      "tech": [
+        "Java",
+        "Maven",
+        "Log4j2",
+        "JUnit"
+      ],
+      "repo": "https://github.com/alnvoloha/java-practice-projects",
+      "live": "",
+      "featured": false
+    },
+    {
+      "id": "linux-bash",
+      "title": "Linux / Bash",
+      "subtitle": "Scripts & notes",
+      "description": "Linux and Bash practice: scripts, CLI routines, and notes from hands-on learning.",
+      "category": "Tools",
+      "tech": [
+        "Linux",
+        "Bash"
+      ],
+      "repo": "https://github.com/alnvoloha/linux-bash",
+      "live": "",
+      "featured": false
+    }
+  ]
+}

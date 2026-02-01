@@ -8,7 +8,7 @@ This repository contains my **portfolio hub**: a clean README for quick navigati
 
 ## Featured work
 
-- **CalcDash** — full‑stack mental math trainer (frontend + backend, JWT, PostgreSQL).  
+- **CalcDash** — full‑stack mental math trainer (frontend + backend, JWT, PostgreSQL) (in progress).  
   Repo: https://github.com/alnvoloha/CalcDash
 
 - **React Projects** — practical React apps (routing, async, state management).  
@@ -20,7 +20,6 @@ This repository contains my **portfolio hub**: a clean README for quick navigati
   Repo: https://github.com/alnvoloha/js-mini-apps
 
 - **Web Design Projects** — HTML/CSS layout + UI polish.  
-  Live: https://alnvoloha.github.io/web-design/  
   Repo: https://github.com/alnvoloha/web-design
 
 ---
@@ -46,26 +45,3 @@ This repository contains my **portfolio hub**: a clean README for quick navigati
 
 ---
 
-## Run locally
-
-Because the site loads `projects.json`, you need a small local server:
-
-```bash
-# Python
-python -m http.server 5173
-# then open http://localhost:5173
-
-# or Node
-npx serve .
-```
-
----
-
-## Deploy (GitHub Pages)
-
-1. Repo → **Settings** → **Pages**
-2. Source: **Deploy from a branch**
-3. Branch: `main` / Folder: `/ (root)`
-4. Save
-
-GitHub Pages will publish the site from this repository.
